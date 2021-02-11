@@ -1,0 +1,6 @@
+2. Setelah melakukan pengujian terhadap app dengan skenario beberapa dan pemilihan beberapa item pada daftar kata di recycler view,
+    Kesimpulan yang didapatkan adalah: 
+    RecyclerView merupakan sebuah sub-Class dari ViewGroup yang lebih efisien dalam penggunaan resources untuk menampilkan scrollable list.
+    RecyclerView ini efisien karena hanya membuat item dari list dalam jumlah terbatas dan akan reuse untuk menampilkan isi terlihat saja.  
+    Sehingga ketika aplikasi ini dijalankan, maka akan menampilkan list kata-kata dan jika kata tersebut diklik maka akan muncul "pernah diklik" dan akan bertambah terus jika diklik berulang kali.
+    Apabila floating button di bawah kanan diklik, maka akan memunculkan kata dengan index baru setelah sebelumnya dan string telah ditambahkan dan jika kata yang baru ditambahkan tersebut diklik, maka akan muncul juga tulisan "telah diklik".
